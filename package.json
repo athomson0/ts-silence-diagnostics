@@ -1,0 +1,23 @@
+{
+  "name": "ts-silence-diagnostics",
+  "version": "1.0.0",
+  "description": "A TypeScript plugin that allows users to silence specific diagnostic messages.",
+  "author": "@athomson0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "plugin",
+    "diagnostics",
+    "silence",
+    "tsserver"
+  ],
+  "dependencies": {
+    "typescript": "^5.0.4",
+    "vscode-languageserver": "^8.1.0",
+    "vscode-languageserver-types": "^3.17.3"
+  },
+  "license": "MIT"
+}
